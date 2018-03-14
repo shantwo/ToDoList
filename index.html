@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Page 1</title>
+    <script src="lib/require.js" data-main="app/main"></script>
+    <link rel="stylesheet" href="assets/style/SASS/todo.css" />
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
+    <script defer src="lib/fontawesome-free-5.0.6/svg-with-js/js/fontawesome-all.js"></script>
+</head>
+<body>
+    <main>
+        <h1>To Do List</h1>
+        <form>
+            <fieldset>
+                <legend>Add an item to the list</legend>
+                <label for="addToDo">Title of the item</label>
+                <input id="addToDo" placeholder="Enter here the item's title for your Todo" autofocus />
+                <br/>
+                <button id="add">Add to the list</button>
+            </fieldset>
+        </form>
+        <br/>
+        <div id="list-container"></div>
+    </main>
+</body>
+</html>
